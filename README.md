@@ -15,8 +15,11 @@
     - Under ubuntu: sudo apt-get install gawk
 
 ### Installation
+downloading from IEDB website
+### Installation
 
 ```{shell}
+tar -xvzf IEDB_NG_TC1-VERSION.tar.gz
 mamba create -n IEDB python=3.10
 mamba activate IEDB
 pip install -r requirements.txt -i https://mirrors.zju.edu.cn/pypi/web/simple
