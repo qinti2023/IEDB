@@ -16,7 +16,7 @@
 
 ###Installation
 
-```shell
+```
 mamba create -n IEDB python=3.10
 mamba activate IEDB
 pip install -r requirements.txt -i https://mirrors.zju.edu.cn/pypi/web/simple
