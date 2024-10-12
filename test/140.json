@@ -1,0 +1,15 @@
+{
+  "peptide_length_range": [
+    9,
+    9
+  ],
+  "alleles": "HLA-B*35:01",
+  "predictors": [
+    {
+      "type": "immunogenicity",
+      "mask_choice": "default",
+      "method": "immunogenicity"
+    }
+  ],
+  "peptide_file_path": "/home/qinti/ng_tc1-0.1.1-beta/Run/remote/test/tmpsi339wzp"
+}

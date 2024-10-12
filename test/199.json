@@ -1,0 +1,18 @@
+{
+  "peptide_length_range": [
+    9,
+    9
+  ],
+  "alleles": "HLA-B*15:01",
+  "predictors": [
+    {
+      "type": "processing",
+      "method": "basic_processing",
+      "mhc_binding_method": "netmhcpan_ba",
+      "proteasome": "immuno",
+      "tap_precursor": 1,
+      "tap_alpha": 0.2
+    }
+  ],
+  "input_sequence_text_file_path": "/home/qinti/ng_tc1-0.1.1-beta/Run/remote/test/tmph3mj4cmo"
+}

@@ -1,0 +1,14 @@
+{
+  "peptide_length_range": [
+    8,
+    8
+  ],
+  "alleles": "HLA-A*31:01",
+  "predictors": [
+    {
+      "type": "binding",
+      "method": "netmhcpan_el"
+    }
+  ],
+  "peptide_file_path": "/home/qinti/ng_tc1-0.1.1-beta/Run/remote/test/tmpkjq1z3c5"
+}
