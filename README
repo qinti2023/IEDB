@@ -1,6 +1,6 @@
-# Pepline for IEDB Next-Generation Tools T Cell Class I 
+#Pepline for IEDB Next-Generation Tools T Cell Class I 
 
-### Prerequisites
+###Prerequisites
 
 + Linux 64-bit environment
   * http://www.ubuntu.com/
@@ -14,7 +14,7 @@
   * http://www.gnu.org/software/gawk/
     - Under ubuntu: sudo apt-get install gawk
 
-### Installation
+###Installation
 
 ```shell
 mamba create -n IEDB python=3.10
@@ -24,23 +24,23 @@ PIP_CONSTRAINTS=pip_constraints.txt pip install -r requirements.txt
 pip install numpy==1.24.4
 ```
 
-### Easy-usage
+###Easy-usage
 
-#### Step1
+####Step1
 
-```shell
+```
 python fasta_to_json.py input_sequence.fasta output.json
 ```
 
-#### Step2
+####Step2
 
-```SHELL
+```
 python3 src/tcell_mhci.py -j output.json --split --split-dir="./test/"
 ```
 
-#### Step3
+####Step3
 
-```shell
+```
 python IEDB_predict.py job_descriptions.json
 ```
 
