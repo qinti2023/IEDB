@@ -15,7 +15,7 @@
   * http://www.gnu.org/software/gawk/
     - Under ubuntu: sudo apt-get install gawk
 
-### downloading from IEDB website
+### Downloading from IEDB website
 
 ### Installation
 
